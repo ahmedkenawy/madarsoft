@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/addUser">
+
+    <fragment
+        android:id="@+id/addUser"
+        android:name="com.a7medkenawy.madarsoft.presentaion.fragments.adduser.AddUser"
+        android:label="fragment_add_user"
+        tools:layout="@layout/fragment_add_user" />
+    <fragment
+        android:id="@+id/showUsers"
+        android:name="com.a7medkenawy.madarsoft.presentaion.fragments.showusers.ShowUsers"
+        android:label="fragment_show_users"
+        tools:layout="@layout/fragment_show_users" />
+</navigation>
